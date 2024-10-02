@@ -1,4 +1,4 @@
-Import java.util.Scanner;
+import java.util.Scanner;
 public class Classwork
 {
   public static void main(String[] args)
@@ -6,15 +6,15 @@ public class Classwork
     System.out.println("Hello");
     Scanner sc = new Scanner (System.in);
     System.out.println("What did you want to buy?");
-    String item;
-    Item = sc.nextline();
+      String Item = sc.nextLine();
+    
     System.out.println("How many did you want to buy?");
-    int quantity;
-    quantity = sc.nextline();
-    System.out.println("How much it cost for 1 unit?");
-    double price;
-    price = sc.nextline();
-    System.out.println(quantity + item + "at" + );
+     int quantity = sc.nextInt();
+    
+    System.out.println("How much does each one weight?");
+     double weigh = sc.nextDouble();
+    
+    System.out.println(quantity +  Item + " at " + weigh + " pounds each will weight " + (quantity * weigh) + " pounds total");
     
   }
 }
