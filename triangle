@@ -1,0 +1,11 @@
+public class Triangle
+{
+    public static void main(String[] args)
+    {
+        int Length = 3;
+        int width = 5;
+        System.out.println("The perimeter is " + (2*(Length + width)));
+        System.out.println("The aera is " + (Length * width));
+
+    }
+}
