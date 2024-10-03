@@ -14,7 +14,7 @@ public class Classwork
     System.out.println("How much does each one weight?");
      double weigh = sc.nextDouble();
     
-    System.out.println(quantity +  Item + " at " + weigh + " pounds each will weight " + (quantity * weigh) + " pounds total");
+    System.out.println(quantity + " " + Item + " at " + weigh + " pounds each will weight " + (quantity * weigh) + " pounds total");
     
   }
 }
